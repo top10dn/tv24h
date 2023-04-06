@@ -17,7 +17,7 @@ if (route.params.slug) {
     id = id[0];
   }
 
-  const apiUrl = `https://tv24h.site/wp-json/wp/v2/posts?slug=${id}`;
+  const apiUrl = `https://today247.online/wp-json/wp/v2/posts?slug=${id}`;
   const response = await fetch(apiUrl);
   const json = await response.json();
   //console.log(data);

